@@ -1,7 +1,7 @@
 # Start your image with a node base image
 FROM node:22-alpine
 
-# The /app directory should act as the main application directory
+# The /app directory shoulddocker build -t welcome-to-docker . act as the main application directory
 WORKDIR /app
 
 # Copy the app package and package-lock.json file
